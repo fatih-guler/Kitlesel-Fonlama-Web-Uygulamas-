@@ -1,0 +1,204 @@
+﻿@using TezProjesi.Entities
+@model List<Question>
+
+@{
+    ViewBag.Title = "GetQuestionsOfProject";
+    Layout = null;
+}
+
+<script src="~/Scripts/jquery-3.2.1.min.js"></script>
+<script>
+    $(function () {
+        $("#sorusor").hide();
+        $("#sorusorac").click(function () {
+            $("#sorusor").toggle();
+            $(document.body).on("click", "#ask", function () {
+                alert($("#txtQuestion").val());
+                alert($(this).attr("projectId"));
+                alert("geldi");
+                $.ajax({
+                    url: "/Project/AffixQuestion",
+                    data: JSON.stringify({ questioncontent: $("#txtQuestion").val(), projectid: parseInt($(this).attr("projectId")) }),
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (res) {
+                        alert(res.msg);
+                    },
+                    error: function () {
+                        alert("hata");
+                        window.location = "/Home/Index";
+                    }
+                });
+            });
+
+        });
+
+        $(document.body).on("click", "#cevapEkle", function () {
+
+            var questionId = $(this).attr("questionid");
+            var answerDescription = "";
+            var askerId = $("#askerId").val();
+            $(".answerDescription").each(function () {
+                if ($(this).attr("questionId") == questionId) {
+                    answerDescription = $(this).val();
+
+                }
+            });
+            alert("answer:" + answerDescription + " askerId : " + askerId);
+            $.ajax({
+                url: "/Project/AffixAnAnswer",
+                data: JSON.stringify({ AnswerDescription: answerDescription, questionid: parseInt($(this).attr("questionid")), projectid: parseInt($("#projectid").val()), askerId: askerId }),
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                success: function (res) {
+                    alert(res.msg);
+
+                },
+                error: function () {
+                    alert("hata");
+                    window.location = "/Home/Index";
+                }
+            });
+
+
+
+        });
+    });
+</script>
+<link href="~/Content/questions_css.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+@if (Model!= null && Model.Count >0)
+{
+    <!--Soru Sor-->
+    <div class="container">
+         @if(Session["user"] != null)
+        {
+        <div class="row" id="sorusor">
+            <div class="col-md-1">
+                <b>Sorunuz:</b>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="txtQuestion" class="form-control" style="float:left" />
+                
+            </div>
+            <div class="col-md-5">
+                <input type="button" id="ask" value="Sor!" class="btn btn-success btn-sm" />
+            </div>
+        </div><br />
+        <input id="sorusorac" type="button" class="btn btn-primary btn-xs" style="font-size:20px;font-family: arial" value="Soru Sor!" />
+        }
+        else
+        {
+         
+             <div style="height:40px">
+               <center>
+                    <p style="background-color:mediumseagreen; font-size:15px ;height:100%; color : white">Soru sorabilmek için giriş yapın!</p>
+                </center>
+            </div>
+         } 
+      </div>  
+    foreach (var item in Model) //Sorular
+    { 
+        @*Projenin Id sini aldığım yer (soru ekleme için çünkü dışarda id yi alamıyorum)*@
+    <input type="text" value="@item.Project.Id" hidden="hidden" id="projectid" />
+    <input type="text" value="@item.user.Id" hidden id="askerId" />
+    <br />
+        <div class="container">
+            <div class="col-sm-8">
+                <div class="panel panel-white post panel-shadow">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+                                <a href="#"><b>@item.user.UserName</b></a>
+                                 
+                            </div>
+                            <h6 class="text-muted time"></h6>
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>@item.QuestionDescription</p>
+                        
+                    </div>
+                    <div class="post-footer">
+                        @if (Session["user"] != null && (Session["user"] as User).Id == item.Project.user.Id)
+                        {
+                            
+                                <div class="input-group">
+                                      <input class="form-control AnswerDescription" id="AnswerDescription" questionId="@item.Id" placeholder="Add a comment" type="text">
+                                    <span class="input-group-addon">
+                                        <span><i class="fa fa-edit" questionId="@item.Id" id="cevapEkle"></i></span>
+                                    </span>
+                                </div>
+                            
+                        }
+                        <ul class="comments-list">
+                            <li class="comment">
+                                
+                               @if (item.Answers != null)
+                               {
+                                   foreach (var ans in item.Answers)
+                                   {
+                                    <a class="pull-left" href="#">
+                                        <img class="avatar" src="http://bootdey.com/img/Content/user_1.jpg" alt="avatar">
+                                    </a>
+                                    <div class="comment-body">
+                                        <div class="comment-heading">
+                                            <h4 class="user">@(ans.user.UserName)</h4>
+                                            <h5 class="time"></h5>
+                                        </div> 
+                                        <p>@ans.AnswerDescription</p>
+                                    </div>
+
+                                   }
+                               }
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+}
+else
+{
+    if(Session["user"] != null)
+    {
+    <div class="container">
+        <div class="row" id="sorusor">
+            <div class="col-md-1">
+                <b>Sorunuz:</b>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="txtQuestion" class="form-control" style="float:left" />
+
+            </div>
+            <div class="col-md-5">
+                <button id="ask"  class="btn btn-success btn-sm"  projectId="@TempData["projectid"]" > Sor ! </button>
+            </div>
+        </div>
+    </div>
+    <h3>Sık Sorulan Sorular</h3>
+    <br>
+    <p>Henüz hiçbir soru sorulmamış!</p>
+    <input type="button" class="btn btn-primary" id="sorusorac" style="font-size:20px;font-family: arial" value="Soru Sor!" />
+    }
+    else
+    {
+            <div style="height:40px">
+               <center>
+                    <p style="background-color:mediumseagreen; font-size:15px ;height:100%; color : white">Soru sorabilmek için giriş yapın!</p>
+                </center>
+            </div>
+    }
+}
+
+
+
+

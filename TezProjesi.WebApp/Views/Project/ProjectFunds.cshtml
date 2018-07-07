@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TezProjesi.Entities.Fund>
+
+@{
+    ViewBag.Title = "ProjectFunds";
+Layout = null;
+}
+
+<h2>Yapılan Yatırımlar</h2>
+<hr />
+<table class="table table-bordered table-bordered table-condensed table-hover table-responsive table-striped">
+    <tr>
+        <th>
+            Kullanıcı Adı
+        </th>
+        <th>
+            Miktar
+        </th>
+        <th>
+            Tarih
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.user_Investor.UserName</td>
+            
+            <td>
+                @(item.Amount +" TL")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+         </tr>
+    }
+
+</table>

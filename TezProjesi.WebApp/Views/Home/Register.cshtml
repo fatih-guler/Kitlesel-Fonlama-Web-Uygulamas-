@@ -1,0 +1,89 @@
+﻿@model TezProjesi.Entities.ViewModels.RegisterViewModel 
+@{
+    Layout = null;
+}
+<html>
+
+<head>
+    <style>
+        body {
+            background: url("/Content/office.jpg") center center fixed;
+            background-color: #444;
+            background-size: cover;
+        }
+
+
+        .vertical-offset-100 {
+            padding-top: 100px;
+        }
+
+    </style>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+       
+</head>
+
+<body>
+    <div class="container">
+        <div class="row vertical-offset-100">
+            <div class="col-md-4 col-md-offset-4">
+
+           @Html.AntiForgeryToken()
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Yeni Kayıt</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form action="/Home/Register" method="POST">
+                            <fieldset>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Kullanıcı Adı" type="text" name="UserName" required autocomplete="off" />
+                                </div>
+                                <div class="form-group">
+
+                                    <input class="form-control" type="email" name="Email" placeholder="E-Mail" required autocomplete="off" />
+                                </div>
+                                <div class="form-group">
+
+                                    <input class="form-control" type="password" required name="Password" placeholder="Parola" autocomplete="off" />
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <input class="form-control" type="password" name="Re_Password" required autocomplete="off" placeholder="Parola Tekrar" />
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label>Yatırımcı Mısınız ?</label> <input class="form-control" type="checkbox" style="width:20px; height:40px" checked="checked" id="IsInvestor" name="IsInvestor"/> 
+                                </div>
+                                <div class="form-group">
+                                    <label style="color:@ViewBag.BG;">
+                                          @ViewBag.Result
+                                    </label>
+                                </div>
+                                <input class="btn btn-lg btn-success btn-block" type="submit" value="Kaydol">
+<span>Zaten üye misiniz ? <br />Giriş yapmak için <a href="/Home/LogIn" style="color:cadetblue">tıklayın !</a></span> 
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

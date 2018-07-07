@@ -1,0 +1,90 @@
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.Entities\obj\Debug\TezProjesi.Entities.pdb

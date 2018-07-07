@@ -1,0 +1,11 @@
+﻿@model  TezProjesi.Entities.Project
+
+@{
+    ViewBag.Title = "Project Details";
+    
+}
+ 
+
+  @Html.Action("ProjectComments", "Project", new {project_id=@Model.Id})
+ 
+ @Html.Action("ProjectFunds", "Project", new {project_id=@Model.Id}) 

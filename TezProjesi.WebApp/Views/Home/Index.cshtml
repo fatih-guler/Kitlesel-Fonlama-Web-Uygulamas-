@@ -1,0 +1,117 @@
+﻿@model IEnumerable<TezProjesi.Entities.Project>
+
+@{
+    ViewBag.Title = "Index";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HFTTF Kovanı</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/indexPage.css" />
+    <style>
+        /*a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }*/
+    </style>
+</head>
+<body>
+    <br />
+  
+    <div class="container">
+        <div class="row-fluid">
+            
+            <div class="thumbnails">
+                
+                @foreach (var myproject in Model)
+                {
+                    //string projectDescription = "";
+                    //if (myproject.Description.Length > 50)
+                    //{
+                    //    projectDescription = myproject.Description.Substring(0, 30) + " <a href='google.com.tr'>[Devamı...]</a> ";
+                    //}
+                    //else
+                    //{
+                    //    projectDescription = myproject.Description;
+                    //}
+                    decimal fund = 0;
+                    decimal percent = 0;
+                    if (myproject.Funds != null && myproject.Funds.Count > 0)
+                    {
+                        foreach (var item in myproject.Funds)
+                        {
+                            fund += item.Amount;
+                        }
+                    }
+                    else
+                    {
+                        fund = 0;
+                    }
+                    percent = Decimal.ToInt32((fund / myproject.ProjectAmount) * 100);
+                    TimeSpan time = new TimeSpan();
+                    time = myproject.ProjectDuration - DateTime.Now;
+                    int fark = time.Days;
+                    string yol = "/ProjectImages/" + myproject.Id + ".jpg";
+<!--YENİ VERSİYON-->  
+            if(fark > 0)
+            {
+                <a href="/Project/Show/@myproject.Id">  
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                            <a class="list-quotes" href="/Project/Show/@myproject.Id">
+                                <!-- Recommended size 360X360 -->
+                              
+                                <img class='img-responsive' width="360px" height="360px" alt="img" src="@yol">
+                                <div class="quotes">
+                                    <h1>@myproject.ProjectName</h1>
+                                    <span class="year">%@percent desteklendi</span>
+                                    <span class="cat-name">@fark gün kaldı</span>
+                                    <p>
+                                        @myproject.ProjectTitle <span>...Görüntüle</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                  </a>
+             }
+            else if(fark <= 0)
+            {
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                            <a class="list-quotes"><!-- href="/Project/Show/@myproject.Id">-->
+                                <!-- Recommended size 360X360 -->
+                              
+                                <img class='img-responsive' alt="img" src="@yol">
+                                <div class="quotes">
+                                    <h1>@myproject.ProjectName</h1>
+                                    <span class="year">%@percent desteklendi</span>
+                                    <span class="cat-name">Proje süresi bitti</span>
+                                    <p>
+                                        @myproject.ProjectTitle.Substring(0,5) <span>...Görüntüle</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+            }
+
+                }
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,357 @@
+﻿@using TezProjesi.Entities
+@model TezProjesi.Entities.Project
+
+@{
+    Layout = null;
+    ViewBag.Title = "Project Details/" + Model.ProjectName;
+}
+
+<html>
+<head>
+    <title>Project Details</title>
+    <link href="~/Content/dropdown_login.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <!-- jQuery library -->
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/Content/Ust_menu_style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var $tabPane = data.element.parents('.tab-pane');
+            tabId = $tabPane.attr('id'),
+            $icon = $('a[href="#' + tabId + '"][data-toggle="tab"]')
+                        .parent()
+                        .find('i')
+                        .removeClass('fa-check fa-times');
+        });
+    </script>
+    <style type="text/css">
+        #accountForm {
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/Ust_menu_style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <div class="container" style="border-top: 0px;">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/Home/Index">FundNow</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+
+                           
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            @if (Session["user"] != null)
+                            {
+                                @Html.Action("GetPartialNotification", "Project");
+                                @Html.Partial("_PartialMenu")
+                            }
+                            else
+                            {
+                                <li>
+                                     <a href="/Home/Register"><b><span class="glyphicon glyphicon-log-in"></span>&nbsp;Kaydol</b>  </a>
+                               </li>
+                               <li>     
+                                    <a href="/Home/LogIn"><b><span class="glyphicon glyphicon-register"></span>Giriş Yap</b></a>
+                               </li>   
+                                                 
+                            }
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    @{
+        int yatirimci_sayisi = 0;
+            decimal toplanan_para = 0;
+        if (Model.Funds != null )
+        {
+            yatirimci_sayisi = Model.Funds.GroupBy(x => x.user_Investor.Id).Count();
+            toplanan_para = Model.Funds.Sum(x => x.Amount);
+        }
+        TimeSpan time = new TimeSpan();
+        time = Model.ProjectDuration - DateTime.Now;
+        int fark = time.Days;
+    }
+
+    <div class="container">
+        <div class="top">
+            <!--Üst Kısım-->
+            <div class="col-md-2 col-lg-2">
+                <br>
+                <br>
+                <img class="img img-circle" width="50px" height="50px" src="https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTE5NDg0MDU0NTIzODQwMDE1/steven-jobs-9354805-2-402.jpg" />
+                <br>
+                <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">@TempData["projectOwner"]</p>
+                <br>
+               
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <h2 style="font-family: Helvetica">@Html.DisplayFor(model => model.ProjectName)
+                </h2>
+                <strong>@Html.DisplayFor(model => model.ProjectTitle)
+                </strong>
+            </div>
+            <div class="col-md-4 col-lg-4">
+            </div>
+
+        </div>
+        <div class="middle container">
+            <!--  Orta Kısım-->
+            <div class="col-md-2 col-lg-2">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <img src="@TempData["projectImage"]" width="100%" height="50%" class="imagePath" />
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+
+                <p style="font-size: 30px; font-family: Helvetica; color: rgb(121, 121, 228)">@toplanan_para TL</p>
+                <p style="color: rgb(201, 197, 197)">Hedeflenen Miktar : @Html.DisplayFor(model => model.ProjectAmount) TL</p>
+                <p style="font-size: 30px; font-family: Helvetica; color: black">@yatirimci_sayisi</p>
+                <p style="color: rgb(201, 197, 197)">Yatırımcı Sayısı</p>
+                <p style="font-size: 30px; font-family: Helvetica; color: black">@fark</p>
+                <p style="color: rgb(201, 197, 197)">Kalan Gün</p>
+                <form method="get" action="/Project/FundOfProject">
+
+                    <input type="text" value="@Model.Id" hidden="hidden" name="project_id" />
+                    @if((Session["user"] != null && (Session["user"] as User).Id != Model.user.Id) || Session["user"] == null)
+                    {
+                        <input type="submit" value="Projeyi Fonla" class="btn btn-success" />
+                    }
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <!-- Alt menü -->
+
+        <div class="col-lg-12 col-md-12 bottom">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#info-tab" data-toggle="tab">Bilgi <i class="fa"></i></a></li>
+                <li><a href="#fqa-tab" data-toggle="tab">FQA <i class="fa"></i></a></li>
+                <li><a href="#comments-tab" data-toggle="tab">Yorumlar <i class="fa"></i></a></li>
+                <li><a href="#rewards-tab" data-toggle="tab">Ödüller<i class="fa"></i></a></li>
+                <li><a href="#contact-tab" data-toggle="tab">İletişim<i class="fa"></i></a></li>
+            </ul>
+
+            <form id="accountForm" method="post" class="form-horizontal"></form>
+            <div class="tab-content">
+                <div class="tab-pane active" id="info-tab">
+                    @Html.Raw(Model.ProjectDescription)
+                </div>
+
+                <div class="tab-pane" id="fqa-tab">
+                    @*@Html.Action("GetQuestionsOfProject", new { projectid = Model.Id });*@
+                     @Html.Partial("_PartialGetQuestions", Model.Questions) 
+ 
+                </div>
+                <div class="tab-pane " id="comments-tab">
+                    @if (ViewBag.CommentResult != null)
+                    {
+                        <div class="alert alert-@ViewBag.Color">@ViewBag.CommentResult</div>
+                    }
+                    @using (Html.BeginForm("MyAddComment", "Project", FormMethod.Post, new { @class = "form" }))
+                    {
+                        <div class="form-group">
+                            <input type="number" hidden="hidden" name="project_id" value="@Model.Id" />
+                            
+                                 @if(Session["user"] != null)
+                                {
+                                    <center class="col-md-6 col-xs-6 col-lg-6 col-sm-6 col-md-offset-3">
+                                 <input type="text" name="comment_title" class="form-control" placeholder="Yorum Başlığını Giriniz." />
+                                <br />
+                                <textarea rows="4" name="comment_content" cols="50" placeholder="Yorumunuzu giriniz..." class="form-control"></textarea>
+                                <br />
+                              
+                                     <input type="submit" value="Yorum Yap" class="btn btn-info" id="btnComment" />
+                         
+                               
+                             </center>
+
+                            <br>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br>
+                            <br />
+                            <br />
+
+                            <br> 
+                            }
+                            else
+                            {
+                             <div style="height:40px">
+                                <center>
+                                    <p style="background-color:mediumseagreen; font-size:15px ;height:100%; color : white">Yorum yapabilmek için giriş yapın!</p>
+                                </center>
+                             </div>
+                            }
+                        </div>
+                    }
+                    <!--Yorum Başlangıç-->
+
+
+
+
+                    <style>
+                        body {
+                            padding-top: 30px;
+                        }
+
+                        .widget .panel-body {
+                            padding: 0px;
+                        }
+
+                        .widget .list-group {
+                            margin-bottom: 0;
+                        }
+
+                        .widget .panel-title {
+                            display: inline;
+                        }
+
+                        .widget .label-info {
+                            float: right;
+                        }
+
+                        .widget li.list-group-item {
+                            border-radius: 0;
+                            border: 0;
+                            border-top: 1px solid #ddd;
+                        }
+
+                            .widget li.list-group-item:hover {
+                                background-color: rgba(86,61,124,.1);
+                            }
+
+                        .widget .mic-info {
+                            color: #666666;
+                            font-size: 11px;
+                        }
+
+                        .widget .action {
+                            margin-top: 5px;
+                        }
+
+                        .widget .comment-text {
+                            font-size: 12px;
+                        }
+
+                        .widget .btn-block {
+                            border-top-left-radius: 0px;
+                            border-top-right-radius: 0px;
+                        }
+                    </style>
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="panel panel-default widget">
+                                <div class="panel-heading">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                    <h3 class="panel-title">Son Yorumlar
+                                    </h3>
+                                    <span class="label label-info">@if(Model.CommentsOfProject != null && Model.CommentsOfProject.Count > 0)
+                                        {
+                                            @Model.CommentsOfProject.Where(x=>x.IsConfirmed==true).ToList().Count
+                                         }
+                                    </span>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class="list-group comments">
+                                        @if (Model.CommentsOfProject == null || Model.CommentsOfProject.Count <= 0)
+                                        {
+                                            
+                                        }
+                                        else
+                                        {
+                                            foreach (Comment item in Model.CommentsOfProject)
+                                            {
+                                                if(@item.IsConfirmed)
+                                                {
+                                        <li class='list-group-item comment'>
+                                            <div class='row'>
+                                                <div class='col-xs-2 col-md-1'>
+                                                    <img src='http://placehold.it/80' class='img-circle img-responsive' alt='' />
+                                                </div>
+                                                <div class='col-xs-10 col-md-11'>
+                                                    <div>
+                                                        @item.Title
+                                                    </div>
+                                                    <div class='mic-info'>Kimden: <a href='#'>@item.User.UserName</a> &nbsp;@item.Date</div>
+                                                </div>
+                                                <div class='comment-text'>
+                                                    @item.Content
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        }
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="rewards-tab">
+                 
+                        @foreach(var item in Model.Rewards)
+                        {
+                            <div style="border:1px solid gray" class="col-lg-6 col-md-6">
+                                <h2>@item.Title</h2>
+                                <p>@item.Content</p>
+                                <p>@item.Amount</p>
+                            </div>
+                                    
+                         }
+               
+                </div>
+                <div class="tab-pane" id="contact-tab">
+                    @Html.Partial("_PartialMyAddresses", TempData["addresses"])  
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

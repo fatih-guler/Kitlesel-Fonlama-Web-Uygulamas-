@@ -1,0 +1,413 @@
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll.config
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Razor.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\WebGrease.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.Razor.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.4\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.6\Tez v1.5\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.WebApp.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\Antlr3.Runtime.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\Newtonsoft.Json.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Net.Http.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Helpers.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Mvc.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Optimization.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\WebGrease.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Net.Http.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Net.Http.WebRequest.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Helpers.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Mvc.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Optimization.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\Antlr3.Runtime.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\Newtonsoft.Json.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\bin\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.WebApp\obj\Debug\TezProjesi.WebApp.pdb

@@ -1,0 +1,126 @@
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.BusinessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.BusinessLayer\obj\Debug\TezProjesi.BusinessLayer.pdb

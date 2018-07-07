@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TezProjesi.Entities.ViewModels.NotificationViewModel>
+ 
+@{
+    ViewBag.Title = "GetNotification";
+    
+}
+
+
+<div class="container">
+<br /><br /><br />
+    <ul class="notifications" style="list-style-type: none">
+        @if(Model.Count() == 0)
+        {
+            <li class="notification">
+               <h2> Herhangi bir bildirim yok!</h2>
+            </li>
+        }
+        @foreach (var item in Model)
+        {
+            
+            var type = item.Type; 
+            if (type == 0)
+            {
+                <li class='notification'>
+                    <div class='media'>
+                        <div class='media-left'><div class='media-object'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU2evmjhwT_NI3fHtZBjkS1D5RE-Nhx9bwHPzYaukiK6xswm6HQ' height='50px' width='50px' class='img-circle' alt='Name'></div></div><div class='media-body'>
+                            <strong class='notification-title'> <a href='#'>@item.UserName</a> isimli kullanıcı <a href='/Project/Show/@item.projectid'> @item.ProjectName</a> projesine yorum yaptı</strong>
+                            <p class='notification-desc'>@item.Comment</p> <div class='notification-meta'><small class='timestamp'>@item.Date.ToShortDateString()</small></div>
+                        </div>
+                    </div>
+                </li>
+            }
+            else if (type == 1)
+            {
+                <li class='notification'>
+                    <div class='media'>
+                        <div class='media-left'><div class='media-object'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU2evmjhwT_NI3fHtZBjkS1D5RE-Nhx9bwHPzYaukiK6xswm6HQ' height='50px' width='50px' class='img-circle' alt='Name'></div></div><div class='media-body'>
+                            <strong class='notification-title'> <a href='#'>@item.UserName</a> isimli kullanıcı <a href='/Project/Show/@item.projectid'>   @item.ProjectName  </a> projesine soru sordu!</strong>
+                            <p class='notification-desc'></p> <div class='notification-meta'><small class='timestamp'> @item.Date </small></div>
+                        </div>
+                    </div>
+                </li>
+
+            }
+            else if (type == 2)
+            {
+
+                <li class='notification'>
+                    <div class='media'>
+                        <div class='media-left'><div class='media-object'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU2evmjhwT_NI3fHtZBjkS1D5RE-Nhx9bwHPzYaukiK6xswm6HQ' height='50px' width='50px' class='img-circle' alt='Name'></div></div><div class='media-body'>
+                            <strong class='notification-title'> <a href='#'> @item.UserName</a> isimli kullanıcı sizi takip etmeye başladı!</strong>"
+                            <p class='notification-desc'> </p> <div class='notification-meta'><small class='timestamp'> @item.Date </small></div>
+                        </div>
+                    </div>
+                </li>
+
+            }
+            else if (type == 3)
+            {
+
+                <li class='notification'>
+                    <div class='media'>
+                        <div class='media-left'><div class='media-object'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU2evmjhwT_NI3fHtZBjkS1D5RE-Nhx9bwHPzYaukiK6xswm6HQ' height='50px' width='50px' class='img-circle' alt='Name'></div></div><div class='media-body'>
+                            <strong class='notification-title'> <a href='#'>@item.UserName</a> isimli kullanıcı <a href='/Project/Show/@item.projectid'> @item.ProjectName </a> projesine yatırım yaptı!</strong>
+                <p class='notification-desc'> </p> <div class='notification-meta'><small class='timestamp'>  @item.Date </small></div>
+            </div>
+        </div>
+    </li>
+
+            }
+  else if (type == 4)
+            {
+
+                <li class='notification'>
+                    <div class='media'>
+                        <div class='media-left'><div class='media-object'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUU2evmjhwT_NI3fHtZBjkS1D5RE-Nhx9bwHPzYaukiK6xswm6HQ' height='50px' width='50px' class='img-circle' alt='Name'></div></div><div class='media-body'>
+                            <strong class='notification-title'> <a href='#'> @item.UserName</a> isimli kullanıcı <a href='/Project/Show/@item.projectid'> sormuş olduğunuz soruya </a> yanıt verdi!</strong>
+                <p class='notification-desc'> </p> <div class='notification-meta'><small class='timestamp'>  @item.Date </small></div>
+            </div>
+        </div>
+    </li>
+
+            }
+        }
+
+    </ul>
+</div>

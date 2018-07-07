@@ -1,0 +1,45 @@
+﻿<!--ÜST MENÜ BAŞLANGIÇ-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="~/Content/Ust_menu_style.css" rel="stylesheet" />
+  
+                        @if (Session["user"] != null)
+                        {
+                             
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> @((Session["user"] as TezProjesi.Entities.User).UserName)</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Project/MyProject" style="border-bottom:10px;"><span class=" glyphicon glyphicon-bookmark"></span>&nbsp; Projelerim</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="/Project/MyAddressInfo" style="border-bottom:10px"><span class="glyphicon glyphicon-edit"></span>&nbsp; Profili Düzenle</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="/Home/ChangePassword" style="border-bottom:10px;"><span class=" glyphicon glyphicon-edit"></span>&nbsp; Şifre Değiştir</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="/Home/LogOut"><span class="glyphicon glyphicon-off"></span>&nbsp; Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+
+                        }
+                        @if (Session["user"]  == null)
+                        {
+                               <li>
+                                     <a href="/Home/Register"><b><span class="glyphicon glyphicon-log-in"></span>&nbsp;Kaydol</b>  </a>
+                               </li>
+                               <li>     
+                                    <a href="/Home/LogIn"><b><span class="glyphicon glyphicon-register"></span>Giriş Yap</b></a>
+                               </li>   
+                              
+                        }
+ 
+  
+<script>
+    $(document).ready(function () {
+
+        $('[data-tooltip="tooltip"]').tooltip();
+    });
+    //$(function () {
+    //    $('[data-tooltip="tooltip"]').tooltip()
+    //});
+</script>
+
+<!--ÜST MENĞ BİTİŞ-->

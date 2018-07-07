@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+
+body {
+  padding: 60px 0px;
+  background-color: #B2D1E5;
+  margin: 0 auto;
+  width: 600px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.body-text {
+  padding: 0 20px 30px 20px;
+  font-family: "Roboto";
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
+.form-container {
+  width: 100%;
+}
+.card-wrapper {
+  background-color: #6FB7E9;
+  padding: 10px 0px;
+  width: 100%;
+}
+.personal-information {
+  background-color: #3C8DC5;
+  color: #fff;
+  padding: 1px 0px;
+  text-align: center;
+}
+h1 {
+  font-size: 1.3em;
+  font-family: "Roboto"
+}
+input {
+  margin: 1px 0px;
+  padding-left: 3%;
+}
+input[type="text"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="number"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="email"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="button"]{
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: #3C8DC5;
+  color: #fff;
+  margin-top: 2px;
+  curson: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+input[type="submit"]:hover{
+  background-color: #6FB7E9;
+  transition: 0.3s ease;
+}
+#column-left {
+  width: 46.8%;
+  float: left;
+  margin-bottom: 2px;
+}
+#column-right {
+  width: 46.8%;
+  float: right;
+}
+
+@media only screen and (max-width: 480px){
+  body {
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  input {
+  margin: 2px 0px;
+  }
+  #input-field {
+    width: 100%;
+  }
+  input[type="text"]{
+  height: 40px;
+  }
+  input[type="email"]{
+  height: 40px;
+  }
+  input[type="submit"]{
+  height: 50px;
+  }
+  #column-left {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  #column-right {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  #input-button {
+    width: 100%;
+  }
+}

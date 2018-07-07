@@ -1,0 +1,453 @@
+﻿@model TezProjesi.Entities.Project
+
+@{
+    ViewBag.Title = "AddProject";
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Proje Ekleme</title>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/ckeditor/config.js"></script>
+    <link href="~/Scripts/ckeditor/contents.css" rel="stylesheet" />
+    <script src="~/Scripts/ckeditor/lang/tr.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- jQuery library -->
+
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+        function previewFile() {
+            //var preview = document.querySelector('img.pFImage'); //selects the query named img
+            //var file = document.querySelector('input[type=file]').files[0]; //sames as here
+            //var reader = new FileReader();
+
+            //reader.onloadend = function () {
+            //    preview.src = reader.result;
+            //}
+
+            //if (file) {
+            //    reader.readAsDataURL(file); //reads the data as a URL
+            //} else {
+            //    preview.src = "";
+            //}
+        }
+        ///////////////
+        $(document).ready(function () {
+            // ÖDÜL Ekleme/Silme
+            $("#addNewReward").click(function () {
+                $(".projectRewards").append("<tr class='reward'><td><input type='text' name='rewardTitle'  placeholder='Ödül Adı' class='rewardTitle'/></td>" +
+                           "<td><input type='text' name='rewardDescription'  placeholder='Açıklama' class='rewardDescription'/></td>" +
+                           "<td><input type='text' name='rewardAmount'  placeholder='Miktar' class='rewardAmount'/></td>" +
+                           "<td><input type='button' name='deleteReward' id='deleteReward' class='btn btn-danger' value='Sil'/></td>" +
+                       "</tr>");
+            });
+            $(document.body).on("click", "#deleteReward", function () {
+                $(this).closest("tr").remove();
+            });
+            // Değişken Tanımlamaları
+            var projectName = "", projectTitle = "", projectAmount = 0, projectDuration;
+            var projectImagesArray = [];
+            var projectRewardsArray = [];
+            var isValid = true;
+
+            //Resim işlemleri
+             var formData = new FormData();
+
+             $("#projectFImage").change(function () {
+                alert("deneme"); 
+                var totalFiles = document.getElementById("projectFImage").files.length;
+                for (var i = 0; i < totalFiles; i++) {
+                    var file = document.getElementById("projectFImage").files[i];
+                    formData.append("projectFImage", file);
+                }
+                //Resim işlemleri
+
+                // Kayıt Tamamlama
+                $("#tamamla").click(function () {
+                    isValid = true;
+                    if ($(".projectName").val() == "" || $(".projectTitle").val() == "" || CKEDITOR.instances['ProjectDescription'].getData() == "" ||
+                        $(".projectAmount").val() == "" || $(".projectDuration").val() == "")
+                        isValid = false;
+                    else {
+                        projectName = $(".projectName").val();
+                        projectTitle = $(".projectTitle").val();
+                        projectDescription = CKEDITOR.instances['ProjectDescription'].getData();
+                        projectAmount = $(".projectAmount").val();
+                        projectDuration = $(".projectDuration").val();
+                        
+                            projectRewardsArray = [];
+                            //Boş eleman var mı kontrolü
+                            $("tr.reward").each(function () {
+
+                                if ($(this).find("td").children("input.rewardTitle").val() == "" || $(this).find("td").children("input.rewardDescription").val() == "" || $(this).find("td").children("input.rewardAmount").val() == "")
+                                    isValid = false;
+                            });
+                            // Veri geçerliyse, diziye atılır
+                            if (isValid) {
+                                $("tr.reward").each(function () {
+                                    var rewardTitle = $(this).find("td").children("input.rewardTitle").val()
+                                    var rewardDescription = $(this).find("td").children("input.rewardDescription").val();
+                                    var rewardAmount = $(this).find("td").children("input.rewardAmount").val();
+                                    projectRewardsArray.push({ ProjectId: -1, Title: rewardTitle, Content: rewardDescription, Amount: rewardAmount });
+                                });
+                            }
+                        
+                    }
+
+                    if (!isValid)
+                        alert("Eksik bilgi bırakmayınız...");
+                    else {
+                        var data = { ProjectTitle: projectTitle, ProjectName: projectName, ProjectAmount: projectAmount, ProjectDescription: CKEDITOR.instances['ProjectDescription'].getData(), ProjectDuration: (projectDuration) };//, Rewards : JSON.stringify(projectRewardsArray) };//, ImageOfProject :projectFImage };
+                        $.ajax({
+                            url: "/Project/AddProjectJson",
+                            data: JSON.stringify({ project: (data), rewards: (projectRewardsArray) }),
+                            type: 'POST',
+                            dataType: 'json',
+                            contentType: 'application/json; charset=utf-8',
+                            success: function (res) {
+                                alert(res.res);
+
+                            },
+                            error: function () {
+                                
+                                window.location = "/Home/Index";
+                            }
+                        });
+                        //Resim kaydetme
+
+                        $.ajax
+                               ({
+                                   type: "POST",
+                                   url: '/Project/UploadImage',
+                                   data: formData,
+                                   dataType: 'json',
+                                   contentType: false,
+                                   processData: false,
+                                   success: function (response) {
+                    
+                                   }
+                                    
+                               });
+                        //Resim kaydetme sonu
+
+                    }
+                }); // tamamla click sonu
+
+            });  // document.ready sonu
+            /* ******YENİ BİR RESİM EKLE/SİL ********* */
+
+            $(document.body).on("click", "#addNewImage", function () {
+                $(this).closest("div").after("<div class='image'><input type='file' class='projectImage col-lg-8 col-md-8' accept='image/x-png,image/gif,image/jpeg'/><input type='button' id='addNewImage' class='col-lg-2 col-md-2 btn btn-success' value='(+)'><input type='button' id='removeImage' class='col-lg-2 col-md-2 btn btn-danger' value='(-)'></div>");
+
+            });
+            $(document.body).on("click", "#removeImage", function () {
+                var count = 0;
+                $(".image").each(function () {
+                    count++;
+                });
+                if (count > 1)
+                    $(this).closest("div").remove();
+            });
+
+        });
+    </script>
+
+    <style>
+        .process-step .btn:focus {
+            outline: none;
+        }
+
+        .process {
+            display: table;
+            width: 100%;
+            position: relative;
+        }
+
+        .process-row {
+            display: table-row;
+        }
+
+        .process-step button[disabled] {
+            opacity: 1 !important;
+            filter: alpha(opacity=100) !important;
+        }
+
+        .process-row:before {
+            top: 40px;
+            bottom: 0;
+            position: absolute;
+            content: " ";
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
+            z-order: 0;
+        }
+
+        .process-step {
+            display: table-cell;
+            text-align: center;
+            position: relative;
+        }
+
+            .process-step p {
+                margin-top: 4px;
+            }
+
+        .btn-circle {
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            font-size: 12px;
+            border-radius: 50%;
+        }
+
+        .tag {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(73, 70, 70);
+            font-size: 15px;
+        }
+
+        .confirmationScreen {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--ÜST MENÜ BAŞLANGIÇ !!!-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/Ust_menu_style.css" rel="stylesheet" />
+    <div class="container" style="border-top: 0px;">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/Home/Index">FundNow</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            @if (Session["user"] != null)
+                            {
+                                @Html.Action("GetPartialNotification", "Project");
+                                @Html.Partial("_PartialMenu")
+                            }
+                            else
+                            {
+
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b><span class="glyphicon glyphicon-log-in"></span>&nbsp;Giriş Yap</b> <span class="caret"></span></a>
+                                    <ul id="login-dp" class="dropdown-menu">
+                                        <li>
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+
+                                                    <form class="form" role="form" method="post" action="/Home/LogIn" accept-charset="UTF-8" id="login-nav">
+                                                        <div class="form-group">
+                                                            <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                            <input name="username" class="form-control" id="exampleInputEmail2" placeholder="Kullanıcı Adı" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="sr-only" for="exampleInputPassword2">Parola</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword2" name="password" placeholder="Password" required>
+                                                            <div class="help-block text-right"><a href="">Parolanızı Mı Unuttunuz ?</a></div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                                <div class="bottom text-center">
+                                                    Yeni Misiniz ? <a href="/Home/Register"><b>Bize Katılın</b></a>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+                        }
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <!--ÜST MENÜ BİTİŞ !!!-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    @using (Html.BeginForm("AddProjectJson", "Project", FormMethod.Post, new { @class = "form", enctype = "multipart/form-data" }))
+    {
+        <div class="col-lg-2"></div>
+    <div class="container col-lg-8">
+        <div class="row">
+            <div class="process">
+                <div class="process-row nav nav-tabs">
+                </div>
+            </div>
+            <div class="tab-content">
+
+                <div class="projectInformation">
+                    <div>
+                        <center>
+                                <label for="projectFImage" class="col-lg-3 col-md-3 col-sm-3">Proje Kapak Resmi : </label>
+                                <input type="file" name="ImageOfProject" width="50px" height="50px" id="projectFImage" height="50px"  class="projectFImage col-lg-9 col-md-9 col-sm-9" />
+                                <img class="pFImage">
+                                <br><br>
+                            </center>
+                    </div>
+                    <div>
+                        <center>
+                                <label for="projectTitle" class="col-lg-3 col-md-3 col-sm-3">Proje Başlığı : </label>
+                                <input type="text" name="ProjectTitle" id="projectTitle" placeholder="Proje Başlığı" height="50px" class="projectTitle col-lg-9 col-md-9 col-sm-9" />
+                                <br><br>
+                            </center>
+                    </div>
+                    <div>
+                        <center>
+                                <label for="projectName" class="col-lg-3 col-md-3 col-sm-3">Proje Adı : </label>
+                                <input type="text" name="ProjectName" id="projectName" placeholder="Proje Adı" height="50px" class="projectName col-lg-9 col-md-9 col-sm-9" />
+                                <br><br>
+                            </center>
+                    </div>
+                    <br>
+                    <div>
+                        <center>
+                                <label for="projectAmount" class="col-lg-3 col-md-3 col-sm-3">Hedeflenen Miktar : </label>
+                                <input type="text" name="ProjectAmount" id="projectAmount" placeholder="Hedeflenen Miktar" height="50px" class="projectAmount col-lg-9 col-md-9 col-sm-9" />
+                                <br><br>
+                            </center>
+                    </div>
+                    <div>
+                        <center>
+                                <label for="projectDuration" class="col-lg-3 col-md-3 col-sm-3">Proje Süresi : </label>
+                                <input type="date" name="ProjectDuration" min='2018-01-01' id="projectDuration" height="50px" class="projectDuration col-lg-9 col-md-9 col-sm-9" />
+                                <br><br>
+                            </center>
+                    </div>
+
+                </div>
+
+
+                <hr />
+                <div class="projectImages" align="center">
+                    Projenizi Açıklayın...
+                    <br />
+                    <div class="col-md-10" align="center" style="vertical-align: middle">
+                        @Html.TextAreaFor(x => x.ProjectDescription, new { @name = "ck", @class = "ProjectDescription" })
+                            <script>CKEDITOR.replace("ProjectDescription")</script>
+                    </div>
+                    <!-- CKEDİTOR -->
+
+
+                    <br>
+                </div>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <hr />
+                <div>
+                    <div class="row clearfix">
+                        <div>
+                            <br />
+
+                            <table class="table table-bordered table-hover table-sortable" id="tab_logic">
+                                <thead>
+                                    <tr>
+                                        <th id="rewardTitle">Ödül Adı
+                                        </th>
+                                        <th id="rewardDescription">Ödül İçerik
+                                        </th>
+                                        <th id="rewardAmount">Ödül Verilecek Tutar
+                                        </th>
+                                        <th class="text-center" style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+                                            <a id="addNewReward" class="btn btn-primary pull-left">Ödül Ekle</a>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="projectRewards">
+                                    <tr class="reward">
+                                        <td>
+                                            <input type="text" name='rewardTitle' placeholder='Ödül Adı' class="rewardTitle" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name='rewardDescription' placeholder='Açıklama' class="rewardDescription" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name='rewardAmount' placeholder='Miktar' class="rewardAmount" />
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br>
+                <div>
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li>
+
+                        <li>
+                            <button type="button" id="tamamla" class="btn btn-success "><span class="glyphicon glyphicon-ok-sign"></span>&nbsp;Tamamla</button></li>
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2"></div>
+    }
+</body>
+</html>
+

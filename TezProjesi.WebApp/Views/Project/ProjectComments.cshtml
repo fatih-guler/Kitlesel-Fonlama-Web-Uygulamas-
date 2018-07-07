@@ -1,0 +1,175 @@
+﻿@model IEnumerable<TezProjesi.Entities.Comment>
+
+@{
+    ViewBag.Title = "ProjectComments";
+    Layout = null;
+}
+
+<br /><br /><br />
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $(document.body).on("click", ".approve", function () {
+                var id = parseInt($(this).attr("id"));
+                $.ajax({
+                    url: "/Project/ConfirmComment",
+                    data: JSON.stringify({ commentId: id }),
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (res) {
+                        if (res.isConfirmed) {
+                            alert("Yorum onaylandı!");
+                            window.location("/Home/Index");
+                        }
+
+                    },
+                    error: function () {
+                        alert("hata");
+                        window.location = "/Home/Index";
+                    }
+                });
+
+            });
+
+            $(document.body).on("click", ".delete", function () {
+
+                var id = parseInt($(this).attr("id"));
+                $.ajax({
+                    url: "RemoveComment",
+                    type: "POST",
+                    data: { commentId: id },
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (resp) {
+                        if (resp.isRemoved)
+                            alert("Yorum silindi!");
+                    },
+                    error: function () {
+                        alert("Beklenmeyen bir hata oluştu!");
+                    }
+                });
+            });
+        });
+    </script>
+
+    <style>
+        body {
+            padding-top: 30px;
+        }
+
+        .widget .panel-body {
+            padding: 0px;
+        }
+
+        .widget .list-group {
+            margin-bottom: 0;
+        }
+
+        .widget .panel-title {
+            display: inline;
+        }
+
+        .widget .label-info {
+            float: right;
+        }
+
+        .widget li.list-group-item {
+            border-radius: 0;
+            border: 0;
+            border-top: 1px solid #ddd;
+        }
+
+            .widget li.list-group-item:hover {
+                background-color: rgba(86,61,124,.1);
+            }
+
+        .widget .mic-info {
+            color: #666666;
+            font-size: 11px;
+        }
+
+        .widget .action {
+            margin-top: 5px;
+        }
+
+        .widget .comment-text {
+            font-size: 12px;
+        }
+
+        .widget .btn-block {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default widget">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-comment"></span>
+                    <h3 class="panel-title">
+                        Son Yorumlar
+                    </h3>
+                    <span class="label label-info">
+                        @if(Model != null)
+                        {
+                                @Model.Count()
+                        }
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group comments">
+                        @if(Model.Count() > 0)
+                        {
+                                foreach (var item in Model)
+                                {
+                                    <li class='list-group-item comment'>
+                                        <div class='row'>
+                                            <div class='col-xs-2 col-md-1'>
+                                                <img src='http://placehold.it/80' class='img-circle img-responsive' alt='' />
+                                            </div>
+                                            <div class='col-xs-10 col-md-11'>
+                                                <div>
+                                                    @item.Title
+                                    
+                                                    </div><div class='mic-info'>Kimden: <a href='#'>@item.User.UserName</a> &nbsp;@item.Date</div>
+                                            @item.Content
+                                            </div>
+                                            <div class="action">
+                                            <button type="button" id="@item.Id" class='btn btn-success btn-xs approve' title='Onayla'><span class='glyphicon glyphicon-ok'></span></button>
+                                    @*<div class='comment-text'>*@
+                                            <button type='button' id="@item.Id" class='btn btn-danger btn-xs delete' title='Sil'><span class='glyphicon glyphicon-trash'></span></button>
+                                  @*</div>*@          
+
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                 }
+                            }
+                            else
+                            {
+                                <li class="list-group-item comment">
+                                    <p>Yorum yok</p>
+                                </li>   
+                            }
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<TezProjesi.Entities.ViewModels.NotificationViewModel>
+
+
+
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list"></span>&nbsp;Bildirimler (<b>@Model.Count()</b>)</a>
+    <ul class="dropdown-menu notify-drop">
+        <div class="notify-drop-title">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">Bildirimler (<b>@Model.Count()</b>)</div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right"><a href="" class="rIcon allRead" data-tooltip="tooltip" data-placement="bottom" title="tümü okundu."><i class="fa fa-dot-circle-o"></i></a></div>
+            </div>
+        </div>
+        <!-- end notify title -->
+        <!-- notify content -->
+
+        <div class="drop-content">
+            @{
+
+                foreach (var item in Model)
+                {
+                    if (item.Type == 0)
+                    {
+                        <li>
+                            <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 pd-l0">
+                                <a href="">@item.UserName</a> isimli kullanıcı <a href="/Project/Show/@item.projectid">@item.ProjectName</a> projesine yorum yaptı.  <a href="" class="rIcon"><i class="fa fa-dot-circle-o"></i></a>
+
+                                <hr>
+                                <p class="time">@item.Date</p>
+                            </div>
+                        </li>
+
+                    }
+                    else if (item.Type == 1)
+                    {
+                        <li>
+                            <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 pd-l0">
+                                <a href="">@item.UserName</a> isimli kullanıcı <a href="/Project/Show/@item.projectid">@item.ProjectName</a> projesine soru sordu <a href="" class="rIcon"><i class="fa fa-dot-circle-o"></i></a>
+
+                                <hr>
+                                <p class="time">@item.Date</p>
+                            </div>
+                        </li>
+                    }
+                    else if (item.Type == 2)
+                    {
+                        <li>
+                            <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 pd-l0">
+                                <a href="">@item.UserName</a> sizi takip etti. <a href=""></a> <a href="" class="rIcon"><i class="fa fa-dot-circle-o"></i></a>
+
+                                <hr>
+                                <p class="time">@item.Date</p>
+                            </div>
+                        </li>
+                    }
+                    else if (item.Type == 3)
+                    {
+                        <li>
+                            <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 pd-l0">
+                                <a href="">@item.UserName</a> @item.ProjectName projesine yatırım yaptı. <a href=""></a> <a href="" class="rIcon"><i class="fa fa-dot-circle-o"></i></a>
+
+                                <hr>
+                                <p class="time">@item.Date</p>
+                            </div>
+                        </li>
+                    }
+                    else if (item.Type == 4)
+                    {
+                        <li>
+                            <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 pd-l0">
+                                <a href="">@item.UserName</a> isimli kullanıcı sorunuza yanıt verdi. <a href=""></a> <a href="" class="rIcon"><i class="fa fa-dot-circle-o"></i></a>
+
+                                <hr>
+                                <p class="time">@item.Date</p>
+                            </div>
+                        </li>
+                    }
+                }
+            }
+        </div>
+        <div class="notify-drop-footer text-center">
+            <a href="/Project/GetNotification"><i class="fa fa-eye"></i> Tümünü Göster</a>
+        </div>
+
+    </ul>
+</li>

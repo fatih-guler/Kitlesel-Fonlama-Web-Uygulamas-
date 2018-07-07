@@ -1,0 +1,114 @@
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+c:\users\tosh\documents\visual studio 2013\Projects\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\TezProjesi\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.3\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.7\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.8\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll.config
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.DataAccessLayer.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\mscorlib.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Core.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\TezProjesi.Entities.pdb
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\normidna.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\normnfc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\normnfd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\normnfkc.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\bin\Debug\normnfkd.nlp
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.dll
+E:\Fatih Güler Files\Tez\Tez v1.9\TezProjesi.DataAccessLayer\obj\Debug\TezProjesi.DataAccessLayer.pdb
